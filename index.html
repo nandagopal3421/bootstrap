@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>
+    
     <style>
      .t1 {
     color:black;
@@ -33,32 +34,126 @@
       height: 55px;
       border-radius: 7px;
     }
+    footer{
+      background-color: tomato;
+    }
     
+   
    
     
     
     </style>
   </head>
   <body>
-      <nav class="navbar-expand-sm navbar-dark bg-secondary bg-dark ">
+      <nav class="navbar-expand-sm navbar-dark bg-secondary bg-dark sticky-top">
+        
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#m1">
         <span class="navbar-toggler-icon"></span>
       </button>
       
-    <div class="collapse navbar-collapse d-flex justify-content-end " id="m1">
+      
+      
+    <div class="collapse navbar-collapse " id="m1">
+      
+      <a class="navbar-brand" href="index.html" >
+        <img src="images/logo.png" class="w1" alt="logo" style="width:60px;margin-left: 15px;">
+      </a>
       
       <ul class="navbar-nav" style="height:55px;margin-top: 10px;">
+        
+        
         <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>    
         <li class="nav-item"><a class="nav-link" href="about.html">AboutUs</a></li>  
         <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>  
         <li class="nav-item"><a class="nav-link" href="contact.html">ContactUs</a></li>  
+      
 
       </ul>
-      <p>hello github</p>
+      
     
     
   </div>
   </nav>
+  <div class="carousel slide" data-ride="carousel" data-interval="2000" id="n1">
+
+        <ol class="carousel-indicators">
+            <li class="#n1 active" data-slide-to=0></li>
+            <li class="#n1" data-slide-to=1></li>
+            <li class="#n1" data-slide-to=2></li>
+        </ol>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/elephant-med.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/mountain.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/bird-med.jpg" alt="" class="d-block w-100" >
+          </div>
+
+      </div>
+  </div>
+  
+  <!-- Footer -->
+<footer class="page-footer font-small ">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic" style="color: white;">
+            <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" style="color: white;">
+            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic" style="color: white;">
+            <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic" style="color: white;">
+            <i class="fa fa-linkedin fa-lg white-text  mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" style="color: white;">
+            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic" style="color: white;">
+            <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3"  style="color: white;">© 2021 Copyright:
+    <a href="https://nandagopal3421.github.io/bootstrap/index.html">Wildlife Photography</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
   
 
   
